@@ -23,8 +23,6 @@ frontend/   Aplikasi React
 Dari folder `tugas4`, pasang dependency untuk runner dan kedua aplikasi:
 ```bash
 npm install
-npm install --prefix backend
-npm install --prefix frontend
 ```
 
 Salin `backend/.env.example` menjadi `backend/.env`, lalu isi `DB_USER`,

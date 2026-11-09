@@ -3,6 +3,7 @@ import swaggerAutogen from 'swagger-autogen';
 
 const doc = {
     info: { title: 'Review Kantin API', version: '1.0.0' },
+    host: `localhost:${process.env.PORT ?? 3001}`,
     servers: [{ url: `http://localhost:${process.env.PORT ?? 3001}` }],
     securityDefinitions: {
         BearerAuth: {
